@@ -1,13 +1,124 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
+.Main{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #161516;
+}
+.phone{
+  height: 93vh;
+  width:25%;
+  border-radius: 70px;
+  border: 10px solid darkgray;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  
+}
+.p-1{
+ 
+  width: 100%;
+  height: 5vh;
+ color: white;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-left: 50px;
+ padding-right: 32px;
+ box-sizing: border-box;
+ position: absolute;
+ top: 0;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+}
+.pp-2{
+  width: 45%;
+  height: 1.5px;
+  background-color: darkgray;
+  display: flex;
+  padding-bottom: 30px;
+  padding-right: 5px;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 35%;
+}
+.pp-3{
+display: flex;
+gap: 5px;
+}
+.Container{
+  width: 100%;
+  height: 24vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  color: white;
+ text-align: right; 
+ font-size: 40px;
+ 
+
+}
+.Container-1{
+  width: 100%;
+  height: 60vh;
+}
+.buttons{
+  height:20%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 17px;
+}
+.b-1{
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  font-size: 25px;
+  background-color: #323232;
+  color: white;
+  border: none;
+}
+.b-0{
+  height: 10vh;
+  width: 45%;
+  border-radius: 40%;
+  font-size: 25px;
+  background-color: #323232;
+  border: none;
+  color: white;
+}
+.b-y{
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  font-size: 25px;
+  background-color: #FD9300;
+  color: white;
+  border: none;
+
+}
+.b-g{
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  font-size: 25px;
+  background-color: #A7A6A7;
+  border: none;
+  color: black;
+
+}
+.lastline{
+  
+  height: .5vh;
+  width:50%;
+  background-color: white;
+  border-radius: 20%;
+  margin-top: .5vh;
 }
