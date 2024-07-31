@@ -12,8 +12,8 @@ body {
 }
 .phone{
   height: 93vh;
-  width:25%;
-  border-radius: 70px;
+  width:23%;
+  border-radius:50px;
   border: 10px solid darkgray;
   background-color: black;
   display: flex;
@@ -37,14 +37,16 @@ body {
  position: absolute;
  top: 0;
 
+padding-bottom: 2px;
+
 }
 .pp-2{
-  width: 45%;
-  height: 1.5px;
+  width:50%;
+  height: 30px;
   background-color: darkgray;
   display: flex;
-  padding-bottom: 30px;
-  padding-right: 5px;
+  
+  
   border-bottom-left-radius: 35%;
   border-bottom-right-radius: 35%;
 }
